@@ -38,6 +38,7 @@ web-vuln-scanner/
 ### 1. Clone the repository
 
 git clone https://github.com/your-username/web-vuln-scanner.git
+
 cd web-vuln-scanner
 
 
@@ -56,11 +57,15 @@ Example
 Scanning the test site:
 
 TARGET_URL = "http://testphp.vulnweb.com/"
+
 Output (example):
 
 [+] Testing XSS on http://testphp.vulnweb.com/search.php
+
 [!] XSS vulnerability detected in form!
+
 [+] Testing SQL Injection on http://testphp.vulnweb.com/search.php
+
 [!] SQL Injection vulnerability detected in form!
 
 
