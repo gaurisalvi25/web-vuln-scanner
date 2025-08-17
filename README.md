@@ -26,13 +26,6 @@ It uses Python libraries like `requests` and `BeautifulSoup` to crawl web forms,
 
 ---
 
-## Project Structure
-web-vuln-scanner/
-│── scanner.py # Main script for scanning vulnerabilities
-│── README.md # Project documentation
-
----
-
 ## Installation & Usage
 
 ### 1. Clone the repository
